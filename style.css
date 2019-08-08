@@ -1,0 +1,166 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px 0px 0px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px 0px 50px 0px;
+    margin: 20px 0px 0px 0px
+}
+
+.container {
+    position: relative;
+}
+
+.container2 {
+    position: relative;
+}
+
+.container3 {
+    position: relative;
+}
+
+.container4 {
+    position: relative;
+}
+
+.container5 {
+    position: relative;
+}
+
+.container6 {
+    position: relative;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.container2:hover .overlay2 {
+    opacity: 1;
+}
+
+.container3:hover .overlay3 {
+    opacity: 1;
+}
+
+.container4:hover .overlay4 {
+    opacity: 1;
+}
+
+.container5:hover .overlay5 {
+    opacity: 1;
+}
+
+.container6:hover .overlay6 {
+    opacity: 1;
+}
+
+.image {
+    display: block;
+    width: 250px;
+    height: 200px;
+    ;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #DECDBB;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1C3C6D;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #94BE1F;
+}
+
+.overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #181F28;
+}
+
+.overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #B3B3B3;
+}
+
+.text {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    letter-spacing: 3px
+}

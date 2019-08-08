@@ -1,0 +1,163 @@
+    body {
+        background-image: url(starry-sky-1654074_1920.jpg);
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+        font-family: 'Open Sans', sans-serif;
+        color: white
+    }
+
+    p {
+        margin-left: 10px;
+        text-align: justify;
+        margin-right: 100px
+    }
+
+    main {
+        margin-left: 10px;
+        padding-top: 150px;
+    }
+
+    main h1,
+    h2 {
+        margin-top: 0;
+        padding: 0;
+        background-color: rgba (255, 255, 255, 0);
+        /*color: white*/
+        ;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+
+    .email {
+        font-size: 30px
+    }
+
+    nav ul {
+        margin: 10;
+        padding: 0;
+        background-color: rgba (255, 255, 255, 0) padding: 0px 0px;
+    }
+
+    nav li {
+        display: inline-block;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        padding: 20px;
+        /*color: white*/
+        font-size: 20px;
+    }
+
+    a:hover {
+        background-color: darkgrey;
+    }
+
+    a {
+        color: white
+    }
+
+    label {
+
+        display: inline-block;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    textarea {
+        width: 300px;
+        padding: 10px;
+
+        border-bottom: 2px solid grey;
+
+    }
+
+    input[type="submit"] {
+        width: 150px;
+        padding-left: 10px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    form {
+        /*color: white*/
+
+        padding: 40px 0px 60px 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    a:visited {
+        color: white
+    }
+
+    #jobs p {
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 0px
+    }
+
+    section#jobs {
+        /*color: white*/
+        font-size: 30px;
+        padding: 30px 150px 70px 150px;
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 70px 0px 0px 0px;
+    }
+
+    article h2,
+    ul {
+        /*color: white*/
+        text-align: left;
+        list-style: none;
+        padding-top: 10px;
+        padding-left: 50px
+    }
+
+    .cv {
+        font-size: 30px; letter-spacing: 3px;
+    }
+
+    article {
+        margin: 100px 0px 0px 0px;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 50px 0px 50px 0px;
+    }
+
+    header {
+        text-align: left;
+        padding: 20px 0px 0px 20px;
+        letter-spacing: 2px
+            /*color: white*/
+        ;
+    }
+
+    article img {
+        height: 250px;
+        width: 200px;
+        float: right;
+        border-radius: 50%;
+        margin-right: 150px
+    }
+
+    figcaption {
+        position: absolute;
+        font-size: 50px;
+        /*color: white*/
+        ;
+        margin: 150px 0px 0px 100px;
+    }
+
+    #logos {
+        color: white;
+        font-size: 20px;
+        margin-left: 50px;
+        list-style: none;
+    }
